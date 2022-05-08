@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f2f5;
+}
+
+main {
+    min-width: 250px;
+    height: 100vh;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main section{
+    width: 490px;
+    min-height: 300px;
+}
+main img {
+    margin: 0;
+}
+main .section-left {
+
+}
+main .section-left #logo {
+    padding-left: 0;
+    width: 199px;
+}
+main .section-left .content {
+    padding-left: 20px;
+}
+main .section-left h1{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 8px;
+    padding: 0;
+}
+main .section-left h2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding: 0;
+    color: #606770;
+}
+main .section-left .content .section-profiles {
+    display: flex;
+    flex-direction: row;
+}
+main .section-left .content .section-profiles .profile {
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-color: #ffffff;
+}
+main .section-left .content .section-profiles .profile p{
+    width: 160px;
+    height: 40px;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 13px;
+    margin-bottom: 10px;
+    color: #3f4349;
+
+}
+main .section-left .content .section-profiles .profile .profile-img {
+    width: 160px;
+    height: 160px;
+    background-color: #f5f6f7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .section-left .content .section-profiles .profile .icon-new{
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/NqXxvQhN4tE.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+
+
+
+main .section-right {
+    background-color: aquamarine;
+}
